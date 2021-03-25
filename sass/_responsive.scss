@@ -55,8 +55,9 @@
     .nav-item {
       &:last-child .nav-link {
         display: block;
-        width: 30%;
+        width: 170px;
         margin: 0 auto;
+        text-align: center;
       }
     }
   }
@@ -140,7 +141,7 @@
     .nav-item {
       &:last-child .nav-link {
         display: block;
-        width: 40%;
+        width: 170px;
         margin: 0 auto;
       }
     }
@@ -183,7 +184,7 @@
     .nav-item {
       &:last-child .nav-link {
         display: block;
-        width: 50%;
+        width: 170px;
         margin: 0 auto;
       }
     }
