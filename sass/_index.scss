@@ -48,13 +48,15 @@
     box-shadow: none!important;
   }
   .closed_par {
-    display: none;
+    display: block;
+    visibility: hidden;
   }
   .sended {
     text-align: center;
     font-size: 16px;
     color: green;
     display: block;
+    visibility: visible;
   }
   .vert_display {
     display: flex;
@@ -66,7 +68,7 @@
   .text-center h2 {
     padding: 0 0 30px 0;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 700; 
   }
   p {
     line-height: 28px;

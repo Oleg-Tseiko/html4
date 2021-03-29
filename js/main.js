@@ -88,7 +88,7 @@ $("#send_form").click(function() {
    if (email.search(regMail)) {
     $(".main_form__mail").attr("placeholder", "Поле обов'язково потрібно заповнити");
     $(".main_form__mail").addClass("wrong_inp");
-    $(".main_form__mail").removeClass("sended");
+    $(".closed_par").removeClass("sended");
     errorArray[3] = 1;
   } else {
     $(".main_form__mail").removeClass("wrong_inp");
@@ -96,7 +96,7 @@ $("#send_form").click(function() {
   }
    if (!$('.checkboxes').is(':checked')) {
     $(".form_policy").addClass("wrong_inp");
-    $(".form_policy").removeClass("sended");
+    $(".closed_par").removeClass("sended");
     errorArray[4] = 1;
   } else {
     $(".form_policy").removeClass("wrong_inp");
